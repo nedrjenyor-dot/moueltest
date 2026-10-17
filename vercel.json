@@ -1,0 +1,28 @@
+{
+  "rewrites": [
+    {
+      "source": "/about",
+      "destination": "/about/index.html"
+    },
+    {
+      "source": "/media",
+      "destination": "/media/index.html"
+    },
+    {
+      "source": "/gov",
+      "destination": "/gov/index.html"
+    },
+    {
+      "source": "/consult",
+      "destination": "/consult/index.html"
+    },
+    {
+      "source": "/partners",
+      "destination": "/partners/index.html"
+    },
+    {
+      "source": "/contact",
+      "destination": "/contact/index.html"
+    }
+  ]
+}

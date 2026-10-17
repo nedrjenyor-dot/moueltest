@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<html dir="rtl" lang="ar">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="light only" name="color-scheme"/>
+<title>جمعية موئل للخدمات النفسية والاجتماعية | جازان</title>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/all.min.css" rel="stylesheet"/>
+<meta content="جمعية موئل للخدمات النفسية والاجتماعية في جازان، تقدم خدمات الدعم النفسي والاجتماعي والإرشاد الأسري والتوعية والتأهيل." name="description"/><link href="https://mouel.org.sa/" rel="canonical"/><link href="/style.css" rel="stylesheet"/></head>
+<body>
+<nav id="topbar">
+<a class="nav-brand" href="/" onclick="showPage('home'); return false;">
+<div class="logo-wrap">
+<img alt="شعار موئل" src="/images/logo.png"/>
+</div>
+<div class="nav-brand-text">
+<span class="name">موئل</span>
+<span class="sub">للخدمات النفسية والاجتماعية</span>
+</div>
+</a>
+<ul class="nav-links" id="desktopNav">
+<li><a class="active" href="/" id="nav-home" onclick="showPage('home'); return false;"><i class="fas fa-home"></i> الرئيسية</a></li>
+<li><a class="" href="/about" id="nav-about" onclick="showPage('about'); return false;"><i class="fas fa-info-circle"></i> عن الجمعية</a></li>
+<li><a class="" href="/media" id="nav-media" onclick="showPage('media'); return false;"><i class="fas fa-newspaper"></i> المركز الإعلامي</a></li>
+<li><a class="" href="/gov" id="nav-gov" onclick="showPage('gov'); return false;"><i class="fas fa-shield-alt"></i> الحوكمة</a></li>
+<li><a class="" href="/consult" id="nav-consult" onclick="showPage('consult'); return false;"><i class="fas fa-comments"></i> الاستشارات</a></li>
+<li><a class="" href="/partners" id="nav-partners" onclick="showPage('partners'); return false;"><i class="fas fa-handshake"></i> الشركاء</a></li>
+<li><a class="" href="/contact" id="nav-contact" onclick="showPage('contact'); return false;"><i class="fas fa-phone-alt"></i> اتصل بنا</a></li>
+</ul>
+<div id="hamburger" onclick="toggleDrawer()">
+<span></span><span></span><span></span>
+</div>
+</nav>
+<div id="mobile-drawer">
+<a href="/" onclick="showPage('home'); closeDrawer(); return false;"><i class="fas fa-home"></i> الرئيسية</a>
+<a href="/about" onclick="showPage('about'); closeDrawer(); return false;"><i class="fas fa-info-circle"></i> عن الجمعية</a>
+<a href="/media" onclick="showPage('media'); closeDrawer(); return false;"><i class="fas fa-newspaper"></i> المركز الإعلامي</a>
+<a href="/gov" onclick="showPage('gov'); closeDrawer(); return false;"><i class="fas fa-shield-alt"></i> الحوكمة والشفافية</a>
+<a href="/consult" onclick="showPage('consult'); closeDrawer(); return false;"><i class="fas fa-comments"></i> الاستشارات</a>
+<a href="/partners" onclick="showPage('partners'); closeDrawer(); return false;"><i class="fas fa-handshake"></i> الشركاء</a>
+<a href="/contact" onclick="showPage('contact'); closeDrawer(); return false;"><i class="fas fa-phone-alt"></i> اتصل بنا</a>
+<div class="drawer-social">
+<a href="https://x.com/mouel2026?s=21" target="_blank"><i class="fab fa-x-twitter"></i></a>
+<a href="https://tiktok.com/@mouel_2026" target="_blank"><i class="fab fa-tiktok"></i></a>
+<a href="https://snapchat.com/t/4vLuiOMt" target="_blank"><i class="fab fa-snapchat"></i></a>
+<a href="mailto:mouel2026@hotmail.com"><i class="fas fa-envelope"></i></a>
+</div>
+</div>
+<div id="main-content"><div class="page active" id="page-home">
+<section class="hero">
+<div class="hero-content">
+<div class="hero-badge"><i class="fas fa-star"></i> جمعية معتمدة لتقديم الخدمات النفسية والاجتماعية</div>
+<h1>مرحباً بكم في <span class="highlight">موئل</span></h1>
+<p>
+            جمعية موئل للخدمات النفسية والاجتماعية، منارة دعم ورعاية للفرد والأسرة والمجتمع.
+            نسعى إلى بناء مجتمع متوازن نفسياً وأسرياً من خلال تقديم خدمات استشارية متخصصة وعالية الجودة.
+          </p>
+<div class="hero-btns">
+<a class="btn-primary" href="#" onclick="scrollToServices(); return false;"><i class="fas fa-th-large"></i> تعرف على خدماتنا</a>
+<a class="btn-outline" href="/about" onclick="showPage('about'); return false;"><i class="fas fa-info-circle"></i> تعرّف علينا</a>
+</div>
+<div class="hero-stamp-mobile">
+<div class="stamp-circle">
+<img alt="ختم موئل الرسمي" src="/images/stamp.png"/>
+</div>
+</div>
+</div>
+<div class="hero-logo-main">
+<img alt="ختم موئل الرسمي" src="/images/stamp.png"/>
+</div>
+</section>
+<section class="about-intro-section">
+<div class="about-intro-inner">
+<p>تُعد جمعية موئل من الجمعيات غير الربحية التي تسعى إلى تقديم الدعم النفسي والاجتماعي للأفراد والمجتمع، انطلاقًا من إيمانها بأهمية الصحة النفسية كركيزة أساسية لحياة متوازنة ومستقرة. تعمل الجمعية على توفير برامج إرشادية وتوعوية تهدف إلى تعزيز الوعي النفسي، ومساعدة الأفراد على مواجهة التحديات الحياتية بطرق صحية وإيجابية.</p>
+<p>كما تسهم جمعية موئل في تقديم خدمات استشارية متخصصة، وتنظيم ورش عمل ودورات تدريبية تسعى إلى تطوير المهارات الشخصية والاجتماعية، وبناء مجتمع واعٍ ومتماسك. وتحرص الجمعية على الوصول إلى مختلف فئات المجتمع، خاصة الفئات الأكثر حاجة للدعم والرعاية.</p>
+<p>وتجسد جمعية موئل نموذجًا للعمل الإنساني التطوعي، حيث تجمع بين الخبرة المهنية وروح العطاء، لتكون ملاذًا آمنًا لكل من يبحث عن الدعم والإرشاد، وتسهم في بناء مجتمع أكثر صحة وازدهارًا.</p>
+</div>
+</section>
+<section class="partners-grid-section">
+<div class="partners-grid-inner">
+<div class="partners-grid-title">
+<h2>شركاء النجاح</h2>
+<div class="underline"></div>
+</div>
+<div class="partners-slider-wrap" id="partnersSlider">
+<div class="partners-slider-track">
+<div class="slider-partner-card"><img alt="وزارة الصحة" src="/images/partner-moh.png"/><span>وزارة الصحة</span></div>
+<div class="slider-partner-card"><img alt="وزارة الموارد البشرية" src="/images/partner-hrsd.png"/><span>وزارة الموارد البشرية والتنمية الاجتماعية</span></div>
+<div class="slider-partner-card"><img alt="المركز الوطني" src="/images/partner-ncnp.png"/><span>المركز الوطني لتنمية القطاع غير الربحي</span></div>
+<div class="slider-partner-card"><img alt="التجمع الصحي بمنطقة جازان " src="/images/partner-jazan.png"/><span>التجمع الصحي بمنطقة جازان</span></div>
+<div class="slider-partner-card"><img alt="جمعيةروح لمرضى الاورام" src="/images/partner-roh.png"/><span>جمعية روح لمرضى الاورام بمنطقة جازان</span></div>
+<div class="slider-partner-card"><img alt="جمعية هبه الصحية للنساء والاولادة والاطفال" src="/images/partner-haba.png"/><span>جمعية هبة الصحية للنساء والاولادة والاطفال</span></div>
+</div>
+</div>
+</div>
+</section>
+<div id="services-section"></div>
+<section class="main-services-section">
+<div class="main-services-inner">
+<div class="main-services-header">
+<h2>خدماتنا المتخصصة</h2>
+<div class="gold-bar"></div>
+<p>نقدم طيفًا متكاملاً من الخدمات النفسية والاجتماعية لدعم الفرد والأسرة</p>
+</div>
+<div class="main-services-grid">
+<div class="main-service-card">
+<span class="ms-num">01</span>
+<div class="ms-icon"><i class="fas fa-heart"></i></div>
+<h4>الاستشارة الزوجية</h4>
+<p>جلسات متخصصة لتعزيز العلاقة الزوجية وحل النزاعات الأسرية وبناء جسور التواصل الإيجابي بين الزوجين في أجواء آمنة وسرية تامة.</p>
+<div class="ms-arrow"><i class="fas fa-arrow-left"></i> اعرف المزيد</div>
+</div>
+<div class="main-service-card">
+<span class="ms-num">02</span>
+<div class="ms-icon"><i class="fas fa-shield-alt"></i></div>
+<h4>علاج الإدمان</h4>
+<p>برامج علاجية متكاملة ومتخصصة للتعافي من الإدمان بأنواعه، تشمل التقييم والدعم النفسي والإرشاد الفردي والجماعي مع متابعة مستمرة.</p>
+<div class="ms-arrow"><i class="fas fa-arrow-left"></i> اعرف المزيد</div>
+</div>
+<div class="main-service-card">
+<span class="ms-num">03</span>
+<div class="ms-icon"><i class="fas fa-brain"></i></div>
+<h4>الطب النفسي</h4>
+<p>تشخيص وعلاج الاضطرابات النفسية كالاكتئاب والقلق واضطرابات المزاج والشخصية، من قِبل أطباء نفسيين مرخصين ومتخصصين.</p>
+<div class="ms-arrow"><i class="fas fa-arrow-left"></i> اعرف المزيد</div>
+</div>
+<div class="main-service-card">
+<span class="ms-num">04</span>
+<div class="ms-icon"><i class="fas fa-users"></i></div>
+<h4>الإرشاد الأسري</h4>
+<p>تعزيز التواصل والترابط الأسري وحل النزاعات بأساليب علمية حديثة، مع دعم الأهل في التعامل مع تحديات التربية والبيئة الأسرية.</p>
+<div class="ms-arrow"><i class="fas fa-arrow-left"></i> اعرف المزيد</div>
+</div>
+<div class="main-service-card">
+<span class="ms-num">05</span>
+<div class="ms-icon"><i class="fas fa-child"></i></div>
+<h4>استشارات الطفل والمراهق</h4>
+<p>تقييم ودعم متخصص للأطفال والمراهقين في مجالات السلوك والتعلم والنمو النفسي، مع إشراك الأسرة في مسيرة الدعم العلاجي.</p>
+<div class="ms-arrow"><i class="fas fa-arrow-left"></i> اعرف المزيد</div>
+</div>
+<div class="main-service-card">
+<span class="ms-num">06</span>
+<div class="ms-icon"><i class="fas fa-hand-holding-heart"></i></div>
+<h4>الدعم النفسي الاجتماعي</h4>
+<p>برامج دعم نفسي اجتماعي شاملة للأفراد الذين يمرون بأزمات أو تحولات حياتية صعبة، مع ربطهم بشبكة دعم مجتمعي متكاملة.</p>
+<div class="ms-arrow"><i class="fas fa-arrow-left"></i> اعرف المزيد</div>
+</div>
+</div>
+</div>
+</section>
+<section class="awareness-section">
+<div class="awareness-inner">
+<div class="awareness-badge"><i class="fas fa-leaf"></i> التوعية النفسية</div>
+<h2>الصحة النفسية ليست رفاهية — <em>هي ضرورة مجتمعية</em></h2>
+<p class="awareness-sub">في موئل نؤمن بأن نشر الوعي النفسي هو الخطوة الأولى نحو مجتمع أكثر صحةً وتماسكًا</p>
+<div class="awareness-facts">
+<div class="awareness-fact"><i class="fas fa-check-circle"></i> 1 من كل 4 أشخاص يعاني من اضطراب نفسي في حياته</div>
+<div class="awareness-fact"><i class="fas fa-check-circle"></i> طلب المساعدة شجاعة وليس ضعفاً</div>
+<div class="awareness-fact"><i class="fas fa-check-circle"></i> التدخل المبكر يقلص زمن التعافي بنسبة 60%</div>
+<div class="awareness-fact"><i class="fas fa-check-circle"></i> الصحة النفسية تنعكس على الأسرة والعمل والمجتمع</div>
+</div>
+<div class="awareness-btns">
+<a class="btn-primary" href="/consult" onclick="showPage('consult'); return false;"><i class="fas fa-calendar-check"></i> ابدأ رحلتك الآن</a>
+<a class="btn-outline" href="#" onclick="scrollToServices(); return false;" style="color:var(--primary);border-color:rgba(13,79,87,0.35);"><i class="fas fa-book-open"></i> اقرأ عن خدماتنا</a>
+</div>
+</div>
+</section>
+</div></div><!-- end main-content -->
+<footer>
+<div class="footer-grid">
+<div class="footer-brand">
+<div class="f-logo-full-wrap">
+<img alt="شعار موئل" src="/images/logo.png"/>
+</div>
+<h3>موئل للخدمات النفسية والاجتماعية</h3>
+<p>منارة دعم ورعاية للفرد والأسرة والمجتمع. نسعى إلى بناء مجتمع متوازن نفسيًا وأسريًا.</p>
+<div class="footer-social">
+<a class="f-social-btn" href="https://x.com/mouel2026?s=21" target="_blank"><i class="fab fa-x-twitter"></i></a>
+<a class="f-social-btn" href="https://www.instagram.com/mouel2026" target="_blank"><i class="fab fa-instagram"></i></a>
+<a class="f-social-btn" href="https://tiktok.com/@mouel_2026" target="_blank"><i class="fab fa-tiktok"></i></a>
+<a class="f-social-btn" href="https://snapchat.com/t/4vLuiOMt" target="_blank"><i class="fab fa-snapchat"></i></a>
+<a class="f-social-btn" href="mailto:mouel2026@hotmail.com"><i class="fas fa-envelope"></i></a>
+</div>
+</div>
+<div class="footer-col">
+<h4>روابط سريعة</h4>
+<ul>
+<li><a onclick="showPage('about')">عن الجمعية</a></li>
+<li><a onclick="showPage('media')">المركز الإعلامي</a></li>
+<li><a onclick="showPage('gov')">الحوكمة والشفافية</a></li>
+<li><a onclick="showPage('consult')">الاستشارات</a></li>
+<li><a onclick="showPage('partners')">الشركاء</a></li>
+<li><a onclick="showPage('contact')">اتصل بنا</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<span>جميع الحقوق محفوظة © 2026 — جمعية موئل للخدمات  النفسية والاجتماعية</span>
+</div>
+</footer>
+<a class="wa-float" href="https://wa.me/966544969127" target="_blank"><i class="fab fa-whatsapp"></i></a>
+<script src="/script.js"></script></body>
+</html>
