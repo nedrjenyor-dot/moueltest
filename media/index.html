@@ -8,7 +8,25 @@
 <title>المركز الإعلامي | جمعية موئل</title>
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
 <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/all.min.css" rel="stylesheet"/>
-<meta content="اطلع على الأخبار والمنشورات والمحتوى الإعلامي لجمعية موئل للخدمات النفسية والاجتماعية." name="description"/><link href="https://mouel.org.sa/media" rel="canonical"/><link href="/moueltest/style.css" rel="stylesheet"/><meta name="robots" content="noindex, nofollow"/></head>
+<meta content="اطلع على الأخبار والمنشورات والمحتوى الإعلامي لجمعية موئل للخدمات النفسية والاجتماعية." name="description"/><link href="https://mouel.org.sa/media" rel="canonical"/><link href="/moueltest/style.css" rel="stylesheet"/><meta name="robots" content="noindex, nofollow"/><style>
+.mouel-news{--ink:#173b3c;--muted:#647674;--gold:#bd9a62;direction:rtl;color:var(--ink)}
+.mouel-news .news-label{display:inline-flex;gap:8px;align-items:center;padding:6px 13px;border-radius:99px;background:#f4eee5;color:#8a6b3e;font-weight:700;font-size:12px;margin-bottom:14px}
+.mouel-news .news-card{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);overflow:hidden;border:1px solid #e5e9e6;border-radius:22px;background:#fff;box-shadow:0 12px 35px rgba(23,59,60,.08);margin:12px 0 24px}
+.mouel-news .news-card img{width:100%;height:100%;min-height:330px;object-fit:cover;display:block}
+.mouel-news .news-copy{padding:36px;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:15px}
+.mouel-news h2{font-size:clamp(22px,2.7vw,32px);line-height:1.65;margin:0;color:var(--ink)}
+.mouel-news p{color:var(--muted);line-height:2;margin:0}
+.mouel-news .news-btn{display:inline-flex;align-items:center;gap:9px;background:var(--ink);color:#fff!important;border-radius:10px;padding:12px 22px;text-decoration:none;font-weight:700;transition:transform .2s,background .2s}
+.mouel-news .news-btn:hover{transform:translateY(-2px);background:#245c58}
+.mouel-news .demo-note{font-size:13px;background:#faf7f1;border-right:3px solid var(--gold);padding:13px 16px;border-radius:8px;color:#77644a;line-height:1.9}
+.mouel-news .article-cover{width:100%;max-height:450px;object-fit:cover;border-radius:18px;display:block;margin:22px 0}
+.mouel-news .article-body{max-width:900px;margin:auto}.mouel-news .article-body h2{font-size:23px;margin:27px 0 12px}
+.mouel-news .article-body ul{padding-right:23px;line-height:2.3;color:var(--muted)}
+.mouel-news .photo-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px;margin:20px 0}
+.mouel-news .photo-grid figure{margin:0}.mouel-news .photo-grid img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:13px;display:block}.mouel-news .photo-grid figcaption{font-size:12px;color:var(--muted);padding-top:7px}
+@media(max-width:740px){.mouel-news .news-card{grid-template-columns:1fr}.mouel-news .news-card img{min-height:0;height:230px}.mouel-news .news-copy{padding:22px}.mouel-news .photo-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:440px){.mouel-news .photo-grid{grid-template-columns:1fr}}
+</style></head>
 <body>
 <nav id="topbar">
 <a class="nav-brand" href="/moueltest/" onclick="showPage('home'); return false;">
@@ -58,10 +76,18 @@
 </div>
 </div>
 <div class="page-body">
-<div class="coming-soon-wrap">
-<div class="coming-soon-icon"><i class="fas fa-newspaper"></i></div>
-<h2>قريباً</h2>
-<p>نعمل على تجهيز المركز الإعلامي. ترقبوا آخر أخبارنا وفعالياتنا وإصداراتنا قريبًا.</p>
+<div class="mouel-news">
+  <span class="news-label"><i class="fas fa-newspaper"></i> خبر تجريبي</span>
+  <article class="news-card">
+    <img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=1200&q=85" alt="صورة توضيحية لمجموعة في جلسة نقاش" loading="lazy" />
+    <div class="news-copy">
+      <span style="font-size:13px;color:#8a6b3e;font-weight:700">المحاضرات والفعاليات · نموذج تجريبي</span>
+      <h2>جمعية موئل تقيم محاضرة عن الصحة النفسية</h2>
+      <p>نموذج لخبر إعلامي يستعرض محاضرة توعوية حول أهمية الصحة النفسية، وطرق تعزيز التوازن النفسي، وسبل الحصول على الدعم المناسب.</p>
+      <a class="news-btn" href="/moueltest/media/mental-health-lecture/">قراءة تفاصيل الخبر <i class="fas fa-arrow-left"></i></a>
+    </div>
+  </article>
+  <p class="demo-note"><i class="fas fa-circle-info"></i> هذا الخبر وصوره للتجربة فقط، وليست توثيقًا لفعالية أقيمت بالفعل. يمكن استبدالها بالبيانات والصور الحقيقية قبل النشر الرسمي.</p>
 </div>
 </div>
 </div></div><!-- end main-content -->
