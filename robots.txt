@@ -1,3 +1,2 @@
 User-agent: *
-Allow: /
-Sitemap: https://mouel.org.sa/sitemap.xml
+Disallow: /

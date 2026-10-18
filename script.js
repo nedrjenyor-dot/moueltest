@@ -3,7 +3,7 @@
     const validPages = ['home','about','media','gov','consult','partners','contact'];
     function showPage(name) {
       if (!validPages.includes(name)) name = 'home';
-      window.location.href = name === 'home' ? '/' : '/' + name;
+      window.location.href = name === 'home' ? '/moueltest/' : '/moueltest/' + name + '/';
       return false;
     }
     function loadPageFromUrl() { /* الصفحة محددة من الخادم */ }
